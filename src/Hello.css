@@ -1,0 +1,44 @@
+h1 {
+color:black
+
+}
+h1:hover{
+    font-size: 50px;
+    animation: rainbow 5s infinite;
+    background-color: black;
+    
+}
+
+@keyframes rainbow {
+    0% { color: red; font-size: 40px;}
+    16% { color: orange; font-size: 50px;}
+    33% { color: yellow; font-size: 40px;}
+    50% { color: green; font-size: 50px;}
+    66% { color: blue; font-size: 40px;}
+    83% { color: indigo; font-size: 50px;}
+    100% { color: violet; font-size: 40px;}
+}
+img {
+    border: solid 12px;
+    border-style:dashed;
+    box-shadow: -1px 50px 5px 12px rgba(0,26,255,0.41);
+-webkit-box-shadow: -1px 50px 5px 12px rgba(0,26,255,0.41);
+-moz-box-shadow: -1px 50px 5px 12px rgba(0,26,255,0.41);
+    
+    animation: rainbow2 8s infinite;
+}
+@keyframes rainbow2 {
+    0% { color: red;transform: rotate(17deg) scale(1.1) ;
+-webkit-transform: rotate(17deg) scale(1.1) ;
+-moz-transform: rotate(17deg) scale(1.1) ;}
+    16% { color: orange;}
+    33% { color: yellow;}
+    50% { color: green;transform: rotate(350deg) scale(1.1) ;
+-webkit-transform: rotate(350deg) scale(1.1) ;
+-moz-transform: rotate(350deg) scale(1.1) ;}
+    66% { color: blue;}
+    83% { color: indigo;}
+    100% { color: violet;transform: rotate(-1deg) scale(1.1) ;
+-webkit-transform: rotate(-1deg) scale(1.1) ;
+-moz-transform: rotate(-1deg) scale(1.1) ;}
+}
